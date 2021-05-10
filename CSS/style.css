@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../2846378.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    width: 100;
+    height: 20vh;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+    width: 25%;
+    text-align: center;   
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.menu a:hover{
+    text-decoration: wavy;
+    font-size: larger;
+    font-weight: 900;
+    text-overflow: ellipsis;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: cornsilk;
+}
+section{
+
+}
+section h3{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-shadow: 2px 1px 5px black;
+}
+h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 900;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+p{
+    color: black;
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px white;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.b1{
+    background: white;
+    color: black;
+    margin: 0 50px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: double;
+
+}
+.b2{
+    background: white;
+    color: black;
+    margin: 0 50px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: double;
+    box-shadow: 10px black;
+}
+.cc:after{
+content: '';
+animation: ct 10s infinite linear;
+color: black;
+text-shadow: 2px 1px 5px white;
+}
+@keyframes ct{
+    0%{content:"असम";}
+    20%{content:"शिलांग";}
+    40%{content:"सिक्किम";}
+    60%{content:"उत्तराखंड";}
+    80%{content:"केरल";}
+    100%{content:"मिजोरम";}
+}
